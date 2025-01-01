@@ -1,0 +1,56 @@
+body {
+    background-color:   black;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+ul {
+    background-color: #a83333;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+ul a {
+    color: #3cd615;
+    text-decoration: none;
+    font-size: large;
+    position: relative;
+}
+
+a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #190944;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+a:hover {
+    color: #12e419;
+}
+
+.login-btn {
+    background-color: blueviolet;
+    border: none;
+    padding: 8px 25px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.login-btn:hover {
+    background-color: red;
+}

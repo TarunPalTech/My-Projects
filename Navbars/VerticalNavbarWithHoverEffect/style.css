@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    width: 50%;
+    margin: auto;
+}
+
+ul {
+    background-color: #ac1c1c;
+    list-style-type: none;
+    padding: 10px 10px;
+    width: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    display: block; /* It is important. */
+    padding: 5px 15px;
+    font-size: large;
+}
+
+a:hover {
+    background-color: #7aeb33;
+    color: #450505;
+}
+
+.login-btn {
+    width: 100%; 
+    font-size: large;
+    padding: 5px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: blue;
+    border: none;
+}
+
+.login-btn:hover {
+    background-color: #0d6d82;
+}
